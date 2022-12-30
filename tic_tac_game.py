@@ -1,5 +1,5 @@
 import os
-import random
+import random 
 
 
 def display_board(board):
@@ -14,7 +14,7 @@ def display_board(board):
 def player_input():
     marker = ''
 
-    while not (marker == 'X' or marker == 'O'):
+    while not (marker == 'X' or marker == 'O'): #jhfkdsfnkdh
         marker = input('Player 1: Do you want to be X or O? ').upper()
 
     if marker == 'X':
